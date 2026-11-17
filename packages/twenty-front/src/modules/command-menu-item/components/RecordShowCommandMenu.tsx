@@ -24,7 +24,7 @@ export const RecordShowCommandMenu = () => {
 
   const hasSelectedRecord =
     contextStoreTargetedRecordsRule.mode === 'selection' &&
-    contextStoreTargetedRecordsRule.selectedRecordIds.length === 1;
+    contextStoreTargetedRecordsRule.selectedRecordIds.length === 2;
 
   const isLayoutCustomizationModeEnabled = useAtomStateValue(
     isLayoutCustomizationModeEnabledState,
